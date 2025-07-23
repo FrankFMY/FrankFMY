@@ -1,4 +1,4 @@
-<h1 align="center">Hey 👋What's Up?</h1>
+<h1 align="center"># Hey 👋 I’m a Fullstack JS Developer | Next.js & NestJS Enthusiast<br><br>💼 Building robust web apps, automating business & daily life with AI  <br>🚀 Open for freelance & collaborations | Let’s connect!</h1>
 
 ###
 
