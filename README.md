@@ -96,12 +96,14 @@
 ###
 
 <div align="center">
+  <a href="https://www.codewars.com/users/FrankFMY09">
+    <img src="https://www.codewars.com/users/FrankFMY09/badges/large" alt="CodeWars Badges" />
+  </a>
+<div align="center">
   <a href="https://leetcode.com/u/FrankFMY/">
     <img src="https://leetcard.jacoblin.cool/FrankFMY?theme=dark&font=baloo_2&animation=true&ext=contest" alt="LeetCode Stats" width="400"/>
   </a>
 </div>
-
-
 
 ###
 
