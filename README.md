@@ -69,6 +69,10 @@
           <a href="https://leetcode.com/u/FrankFMY/">
             <img src="https://leetcard.jacoblin.cool/FrankFMY?theme=dark&font=baloo_2&animation=true&ext=contest" alt="LeetCode Stats" width="400"/>
           </a>
+          <br>
+          <img src="https://github-readme-stats.vercel.app/api/top-langs?username=FrankFmy&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false&order=2" height="150" alt="languages graph"  />
+          <br>
+          <img src="https://streak-stats.demolab.com?user=FrankFmy&locale=en&mode=daily&theme=dracula&hide_border=false&border_radius=5&order=3" height="150" alt="streak graph"  />
         </div>
       </td>
     </tr>
@@ -92,17 +96,10 @@
   </a>
 </div>
 
-
 ###
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=FrankFmy&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false&order=2" height="150" alt="languages graph"  />
-  <img src="https://streak-stats.demolab.com?user=FrankFmy&locale=en&mode=daily&theme=dracula&hide_border=false&border_radius=5&order=3" height="150" alt="streak graph"  />
-  <img src="https://github-profile-trophy.vercel.app?username=FrankFmy&theme=dracula&column=-1&row=1&margin-w=8&margin-h=8&no-bg=false&no-frame=false&order=4" height="150" alt="trophy graph"  />
+  <img src="https://raw.githubusercontent.com/FrankFmy/FrankFmy/output/snake.svg" alt="Snake animation" />
 </div>
-
-###
-
-<img src="https://raw.githubusercontent.com/FrankFmy/FrankFmy/output/snake.svg" alt="Snake animation" />
 
 ###
