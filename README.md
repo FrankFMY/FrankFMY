@@ -4,8 +4,7 @@
 
 **TypeScript & Rust Engineer | Open Source Contributor**
 
-Building developer tools and web infrastructure.
-28 pull requests across projects with 235k+ combined stars.
+Contributing to developer tools and web infrastructure used by millions.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/frankfmy/)
 [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/FrankFMY)
@@ -17,25 +16,34 @@ Building developer tools and web infrastructure.
 
 ## Open Source Contributions
 
-| Project | Stars | Language | PRs | Key Contribution |
-|---------|-------|----------|-----|------------------|
-| **[Bun](https://github.com/oven-sh/bun)** | 87k | TypeScript | 5 | Improved `fetch()` error messages ([#26761](https://github.com/oven-sh/bun/pull/26761)) |
-| **[Svelte](https://github.com/sveltejs/svelte)** | 86k | TypeScript | 8 | Fixed store detection in `{#each}` blocks ([#17636](https://github.com/sveltejs/svelte/pull/17636)) |
-| **[Biome](https://github.com/biomejs/biome)** | 23k | Rust | 4 | Fixed `useAwait` for async generators ([#8978](https://github.com/biomejs/biome/pull/8978)) |
-| **[SvelteKit](https://github.com/sveltejs/kit)** | 20k | TypeScript | 8 | Fixed `$page.state` loss during `invalidate()` ([#15266](https://github.com/sveltejs/kit/pull/15266)) |
-| **[OXC](https://github.com/oxc-project/oxc)** | 19k | Rust | 3 | Fixed linter to ignore formatter directives ([#19008](https://github.com/oxc-project/oxc/pull/19008)) |
+Active contributor to major projects with **235k+ combined stars**:
+
+| Project | Description | |
+|---------|-------------|---|
+| **[Bun](https://github.com/oven-sh/bun)** | JavaScript runtime & toolkit — 87k+ stars | [My PRs →](https://github.com/oven-sh/bun/pulls?q=is%3Apr+author%3AFrankFMY) |
+| **[Svelte](https://github.com/sveltejs/svelte)** | Reactive UI framework — 86k+ stars | [My PRs →](https://github.com/sveltejs/svelte/pulls?q=is%3Apr+author%3AFrankFMY) |
+| **[Biome](https://github.com/biomejs/biome)** | Fast linter & formatter (Rust) — 23k+ stars | [My PRs →](https://github.com/biomejs/biome/pulls?q=is%3Apr+author%3AFrankFMY) |
+| **[SvelteKit](https://github.com/sveltejs/kit)** | Full-stack web framework — 20k+ stars | [My PRs →](https://github.com/sveltejs/kit/pulls?q=is%3Apr+author%3AFrankFMY) |
+| **[OXC](https://github.com/oxc-project/oxc)** | Oxidation Compiler (Rust) — 19k+ stars | [My PRs →](https://github.com/oxc-project/oxc/pulls?q=is%3Apr+author%3AFrankFMY) |
 
 <details>
-<summary><b>Highlighted PRs</b></summary>
+<summary><b>Notable contributions</b></summary>
 
 <br>
 
-- **SvelteKit** — Resolved false-positive `pushState`/`replaceState` warnings caused by Sentry monkey-patching ([#15267](https://github.com/sveltejs/kit/pull/15267))
-- **SvelteKit** — Improved error messages when remote functions are not enabled ([#15268](https://github.com/sveltejs/kit/pull/15268))
-- **Svelte** — Added `<menu>` element support in a11y role checks ([#17638](https://github.com/sveltejs/svelte/pull/17638))
-- **Bun** — Fixed S3 API typo in `checksumAlgorithm` ([#26760](https://github.com/oven-sh/bun/pull/26760))
-- **Biome** — Fixed false positive in `noSimplifiedLogicExpression` ([#8976](https://github.com/biomejs/biome/pull/8976))
-- **OXC** — Improved `no-map-spread` diagnostic messages ([#19007](https://github.com/oxc-project/oxc/pull/19007))
+**Svelte / SvelteKit**
+- Fixed reactive store detection in template block expressions
+- Fixed state preservation during page invalidation
+- Resolved false-positive warnings caused by third-party monkey-patching
+- Improved error messages for remote functions and developer experience
+
+**Bun**
+- Improved error messages for fetch API edge cases
+- Fixed S3 client API inconsistencies
+
+**Biome / OXC**
+- Fixed linter rules for async generators and formatter directives
+- Improved diagnostic messages for code quality rules
 
 </details>
 
@@ -52,19 +60,42 @@ Building developer tools and web infrastructure.
 
 ## Tech Stack
 
-<p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="40" alt="typescript" />&nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-original.svg" height="40" alt="rust" />&nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" height="40" alt="go" />&nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/solidity/solidity-original.svg" height="40" alt="solidity" />&nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg" height="40" alt="svelte" />&nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" height="40" alt="tailwindcss" />&nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="40" alt="postgresql" />&nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" height="40" alt="redis" />&nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="40" alt="docker" />&nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="python" />&nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" height="40" alt="php" />
-</p>
+**Languages**
+
+![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Rust](https://img.shields.io/badge/-Rust-000000?style=flat-square&logo=rust&logoColor=white)
+![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=go&logoColor=white)
+![Solidity](https://img.shields.io/badge/-Solidity-363636?style=flat-square&logo=solidity&logoColor=white)
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![PHP](https://img.shields.io/badge/-PHP-777BB4?style=flat-square&logo=php&logoColor=white)
+
+**Frontend**
+
+![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![Svelte](https://img.shields.io/badge/-Svelte-FF3E00?style=flat-square&logo=svelte&logoColor=white)
+![Vue.js](https://img.shields.io/badge/-Vue.js-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white)
+![Nuxt](https://img.shields.io/badge/-Nuxt-00DC82?style=flat-square&logo=nuxtdotjs&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/-TailwindCSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![shadcn/ui](https://img.shields.io/badge/-shadcn%2Fui-000000?style=flat-square&logo=shadcnui&logoColor=white)
+
+**Backend**
+
+![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![Bun](https://img.shields.io/badge/-Bun-000000?style=flat-square&logo=bun&logoColor=white)
+![NestJS](https://img.shields.io/badge/-NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
+![Express](https://img.shields.io/badge/-Express-000000?style=flat-square&logo=express&logoColor=white)
+![ElysiaJS](https://img.shields.io/badge/-ElysiaJS-7C3AED?style=flat-square&logoColor=white)
+![Drizzle ORM](https://img.shields.io/badge/-Drizzle_ORM-C5F74F?style=flat-square&logo=drizzle&logoColor=black)
+
+**Data & Infrastructure**
+
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/-Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Linux](https://img.shields.io/badge/-Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![Caddy](https://img.shields.io/badge/-Caddy-1F88C0?style=flat-square&logo=caddy&logoColor=white)
+![MinIO](https://img.shields.io/badge/-MinIO-C72E49?style=flat-square&logo=minio&logoColor=white)
 
 ---
 
