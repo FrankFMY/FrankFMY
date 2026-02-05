@@ -46,22 +46,31 @@ Building developer tools and web infrastructure.
 | Project | Description | Stack |
 |---------|-------------|-------|
 | **[AURA](https://github.com/FrankFMY/AURA)** | Censorship-resistant messenger on Nostr protocol | TypeScript, Svelte |
-| **[ai-trading-dashboard](https://github.com/FrankFMY/ai-trading-dashboard)** | AI-powered trading analytics dashboard | TypeScript |
+| **[burrow](https://github.com/FrankFMY/burrow)** | Simple, fast, open-source mesh VPN | Rust |
 
 ---
 
 ## Tech Stack
 
-<p>
-  <img src="https://skillicons.dev/icons?i=ts,rust,svelte,react,nodejs,nestjs,postgres,docker,linux,git" />
+<p align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="40" alt="typescript" />&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-original.svg" height="40" alt="rust" />&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg" height="40" alt="svelte" />&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" alt="react" />&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="40" alt="nodejs" />&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-original.svg" height="40" alt="nestjs" />&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="40" alt="postgresql" />&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="40" alt="docker" />&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="40" alt="linux" />&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="40" alt="git" />
 </p>
 
 ---
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=FrankFMY&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=6&theme=dracula&hide_border=true" height="150" alt="languages graph" />
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs?username=FrankFMY&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=6&theme=dracula&hide_border=true&cache_seconds=86400" height="150" alt="languages graph" />
   &nbsp;
-  <img src="https://streak-stats.demolab.com?user=FrankFMY&locale=en&mode=daily&theme=dracula&hide_border=true&border_radius=5" height="150" alt="streak graph" />
+  <img src="https://github-readme-streak-stats-eight.vercel.app?user=FrankFMY&locale=en&mode=daily&theme=dracula&hide_border=true&border_radius=5" height="150" alt="streak graph" />
 </div>
 
 <br>
