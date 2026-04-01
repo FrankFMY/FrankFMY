@@ -4,8 +4,8 @@
 
 **Engineering Leader & Full-Stack Architect**
 
-Leading engineering at two companies — a startup building communication platforms and an established enterprise.
-Background in both software engineering and business operations gives me a systems-level view of products.
+Leading engineering at two companies — building an ecosystem of 7 enterprise products (ERP, logistics, workforce platforms) with government system integrations, and serving as lead engineer at an industrial services company.
+Background in both software architecture and business operations (procurement, logistics, team management) gives me a systems-level view of products.
 
 17 merged PRs in Svelte, SvelteKit, Biome, OXC (235k+ combined stars).
 Two production backends: 41K lines Go (ECS + Event Sourcing) and a B2B SaaS scoring 27K+ tenders with AI.
