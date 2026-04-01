@@ -62,6 +62,7 @@ Stack: Bun + Elysia, SvelteKit + Svelte 5, PostgreSQL + Drizzle ORM, Redis, Cadd
 | Project | What it does | Stack |
 |---------|-------------|-------|
 | **[Arcana](https://github.com/FrankFMY/Arcana)** | Reactive graph sync engine — real-time PostgreSQL-to-frontend with WebSocket and framework adapters | Go, PostgreSQL |
+| **[buddy-evolution](https://github.com/FrankFMY/buddy-evolution)** | Claude Code plugin — companion progression with 34 achievements, XP, journal, stat growth ([buddy.frankfmy.com](https://buddy.frankfmy.com)) | Node.js |
 | **[Burrow](https://github.com/FrankFMY/burrow)** | Self-hosted VPN — VLESS+Reality, CDN fronting, Hysteria2, auto-fallback, split tunneling | Go, Svelte, Tauri |
 | **[AURA](https://github.com/FrankFMY/AURA)** | Censorship-resistant messenger on Nostr protocol | TypeScript, Svelte |
 
