@@ -2,69 +2,70 @@
 
 # Artyom Pryanishnikov
 
-**Engineering Leader & Full-Stack Architect**
+**Founder & CTO / Senior Full-Stack Product Engineer**
 
-Leading engineering at two companies — building an ecosystem of 7 enterprise products (ERP, logistics, workforce platforms) with government system integrations, and serving as lead engineer at an industrial services company.
-Background in both software architecture and business operations (procurement, logistics, team management) gives me a systems-level view of products.
+I build AI-first B2B SaaS, realtime backend systems, procurement and operations software, and developer tools.
 
-17 merged PRs in Svelte, SvelteKit, Biome, OXC (235k+ combined stars).
-Two production backends: 41K lines Go (ECS + Event Sourcing) and a B2B SaaS scoring 27K+ tenders with AI.
+At **FrankFMY**, I personally own product strategy, architecture and core engineering while building a lean partner-led GTM motion around lead generation, first-touch sales and product distribution.
+
+17 merged PRs in Svelte, SvelteKit, Biome and OXC.
+
+Production systems across TypeScript, SvelteKit, Go, PostgreSQL, Redis, AI workflows, realtime sync and deployment infrastructure.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/frankfmy/)
 [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/FrankFMY)
 [![Website](https://img.shields.io/badge/frankfmy.com-000?style=for-the-badge&logo=safari&logoColor=white)](https://frankfmy.com)
+[![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/FrankFMY)
 
 </div>
 
 ---
 
-## What I Build
+## Current Focus
 
-### BizEngine `Go` `41K LOC` `private`
-
-Server engine for creating digital twins of businesses. Entity-Component-System architecture with Event Sourcing — every business object is an Entity with typed JSONB Components, every mutation produces an Event in an append-only log.
-
-- **14 business modules** — Catalog, Warehouse, Orders, HR, Finance (double-entry accounting), Logistics (GPS tracking), CRM, Documents, Import, Webhooks
-- **Process engine** — YAML-defined state machines for order fulfillment, stock replenishment, delivery tracking
-- **Arcana integration** — reactive sync engine with 32 graph definitions, JSON Patch diffs, Centrifugo real-time delivery
-- **3D space validation** — AABB collision detection for spatial layouts
-- Double-entry bookkeeping (int64 kopeks, РСБУ chart of accounts), Russian tax/EDO/labeling integration stubs
-
-Stack: Go 1.24, Chi, PostgreSQL 16, Redis, Centrifugo v6, MinIO
-
-### FrankFMY CRM [`crm.frankfmy.com`](https://crm.frankfmy.com) `TypeScript` `private`
-
-B2B SaaS for Russian government procurement — sole engineer, production with paying customers.
-
-- **27K+ tenders** parsed from zakupki.gov.ru, scoring engine with morphological stemming, OKPD2 matching, log-weighted keyword normalization
-- **AI document analysis** — PDF/DOCX extraction, per-template keyword scoring in technical specifications
-- **Real-time notifications** — SSE in-app + Web Push + Telegram bot + email digest
-- **Security** — httpOnly cookie auth, CSP/HSTS, CSRF double-submit, bcrypt + session revocation
-
-Stack: Bun + Elysia, SvelteKit + Svelte 5, PostgreSQL + Drizzle ORM, Redis, Caddy
+- Building **TenderCRM** and **TenderCheck AI**: AI-assisted products for regulated procurement workflows, document analysis, bid/no-bid decisions and tender operations.
+- Building **ShipLog**: an AI system that turns git history into grounded professional content, release stories and resume material.
+- Developing **BizEngine** and **Arcana**: backend and realtime sync foundations for business operating systems.
+- Working on B2B product engineering, AI SaaS, internal tools, realtime infrastructure and founder-led product delivery.
 
 ---
 
-## Open Source
+## Selected Systems
 
-| Project | Stars | Merged | What I worked on |
-|---------|-------|--------|-----------------|
-| **[Svelte](https://github.com/sveltejs/svelte)** | 86k+ | [7 PRs](https://github.com/sveltejs/svelte/pulls?q=is%3Apr+author%3AFrankFMY+is%3Amerged) | Reactive store detection in block expressions, state preservation during invalidation |
-| **[SvelteKit](https://github.com/sveltejs/kit)** | 20k+ | [5 PRs](https://github.com/sveltejs/kit/pulls?q=is%3Apr+author%3AFrankFMY+is%3Amerged) | Remote function error handling, DX improvements |
-| **[Bun](https://github.com/oven-sh/bun)** | 87k+ | [5 open](https://github.com/oven-sh/bun/pulls?q=is%3Apr+author%3AFrankFMY) | Fetch API error messages, S3 client fixes |
-| **[Biome](https://github.com/biomejs/biome)** | 23k+ | [3 PRs](https://github.com/biomejs/biome/pulls?q=is%3Apr+author%3AFrankFMY+is%3Amerged) | Async generator rules, formatter directives |
-| **[OXC](https://github.com/oxc-project/oxc)** | 19k+ | [2 PRs](https://github.com/oxc-project/oxc/pulls?q=is%3Apr+author%3AFrankFMY+is%3Amerged) | Diagnostic message improvements |
+| Product / Project | What it does | Stack / Focus |
+|---|---|---|
+| **TenderCRM** | AI-assisted CRM/SaaS for regulated procurement workflows: discovery, scoring, AI document audit, CRM pipeline, tasks, contracts, analytics, billing and admin operations. | TypeScript, SvelteKit, Bun, Elysia, PostgreSQL, Drizzle, Redis, Caddy |
+| **TenderCheck AI** | Focused paid product for personalized AI tender analysis from a public tender link and a company profile. | AI workflows, document parsing, paid reports, admin, billing boundary |
+| **ShipLog** | AI product that converts git activity into LinkedIn/X/Telegram posts, engineering reports, resume material and product stories with evidence grounding. | TypeScript, SvelteKit, LLM workflows, quality gates |
+| **BizEngine** | Backend engine for digital twins of businesses: ECS model, Event Sourcing, YAML state machines, modules for warehouse, orders, finance, HR, logistics, CRM and documents. | Go, PostgreSQL, Redis, Centrifugo, MinIO |
+| **[Arcana](https://github.com/FrankFMY/Arcana)** | Reactive graph sync engine for PostgreSQL-backed applications: graph subscriptions, normalized store, JSON Patch diffs and realtime transports. | Go, PostgreSQL, WebSocket/Centrifugo |
+| **[Burrow](https://github.com/FrankFMY/burrow)** | Self-hosted VPN/proxy product with modern proxy protocols, invite flows, admin direction and desktop client direction. | Go, Svelte, Tauri, networking |
+| **[AURA](https://github.com/FrankFMY/AURA)** | Decentralized social messenger on Nostr with realtime feeds, encrypted DMs, relays and wallet/payment integrations. | TypeScript, Svelte, Nostr |
 
 ---
 
-## Other Projects
+## Open Source Contributions
 
-| Project | What it does | Stack |
-|---------|-------------|-------|
-| **[Arcana](https://github.com/FrankFMY/Arcana)** | Reactive graph sync engine — real-time PostgreSQL-to-frontend with WebSocket and framework adapters | Go, PostgreSQL |
-| **[buddy-evolution](https://github.com/FrankFMY/buddy-evolution)** | Claude Code plugin — companion progression with 34 achievements, XP, journal, stat growth ([buddy.frankfmy.com](https://buddy.frankfmy.com)) | Node.js |
-| **[Burrow](https://github.com/FrankFMY/burrow)** | Self-hosted VPN — VLESS+Reality, CDN fronting, Hysteria2, auto-fallback, split tunneling | Go, Svelte, Tauri |
-| **[AURA](https://github.com/FrankFMY/AURA)** | Censorship-resistant messenger on Nostr protocol | TypeScript, Svelte |
+I contribute to developer tools and web infrastructure used by large engineering communities.
+
+| Project | Scale | Contributions |
+|---|---:|---|
+| **[Svelte](https://github.com/sveltejs/svelte)** | 86k+ stars | [7 merged PRs](https://github.com/sveltejs/svelte/pulls?q=is%3Apr+author%3AFrankFMY+is%3Amerged): reactive store detection, template/block-expression behavior, invalidation/state handling |
+| **[SvelteKit](https://github.com/sveltejs/kit)** | 20k+ stars | [5 merged PRs](https://github.com/sveltejs/kit/pulls?q=is%3Apr+author%3AFrankFMY+is%3Amerged): remote function errors, developer experience improvements |
+| **[Biome](https://github.com/biomejs/biome)** | 23k+ stars | [3 merged PRs](https://github.com/biomejs/biome/pulls?q=is%3Apr+author%3AFrankFMY+is%3Amerged): async generator rules, formatter directives, diagnostics |
+| **[OXC](https://github.com/oxc-project/oxc)** | 19k+ stars | [2 merged PRs](https://github.com/oxc-project/oxc/pulls?q=is%3Apr+author%3AFrankFMY+is%3Amerged): diagnostic message improvements |
+| **[Bun](https://github.com/oven-sh/bun)** | 87k+ stars | [Open PRs](https://github.com/oven-sh/bun/pulls?q=is%3Apr+author%3AFrankFMY): fetch API errors, S3 client behavior |
+
+---
+
+## Engineering Themes
+
+- **AI SaaS:** LLM workflows, document analysis, structured outputs, scoring, quality gates and hallucination control.
+- **Business systems:** procurement, CRM, ERP-style workflows, roles, billing, audit logs, admin operations and reporting.
+- **Realtime architecture:** WebSocket/SSE, graph sync, JSON Patch, Centrifugo, offline-first directions and normalized client stores.
+- **Backend architecture:** Go, TypeScript/Bun, PostgreSQL, Redis, queues, state machines, Event Sourcing, ECS and multi-tenant SaaS.
+- **Production delivery:** Linux, Docker, PM2, Caddy, CI/CD, backups, security headers, auth, CSRF, rate limiting and operational tooling.
+- **Product ownership:** discovery, architecture, UX, monetization, GTM materials, partner enablement and end-to-end delivery.
 
 ---
 
@@ -76,36 +77,24 @@ Stack: Bun + Elysia, SvelteKit + Svelte 5, PostgreSQL + Drizzle ORM, Redis, Cadd
 ![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=go&logoColor=white)
 ![Rust](https://img.shields.io/badge/-Rust-000000?style=flat-square&logo=rust&logoColor=white)
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![PHP](https://img.shields.io/badge/-PHP-777BB4?style=flat-square&logo=php&logoColor=white)
 
 **Frontend**
 
-![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
 ![Svelte](https://img.shields.io/badge/-Svelte-FF3E00?style=flat-square&logo=svelte&logoColor=white)
 ![SvelteKit](https://img.shields.io/badge/-SvelteKit-FF3E00?style=flat-square&logo=svelte&logoColor=white)
+![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/-TailwindCSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
 
-**Backend**
+**Backend / Data / Infrastructure**
 
 ![Bun](https://img.shields.io/badge/-Bun-000000?style=flat-square&logo=bun&logoColor=white)
-![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![NestJS](https://img.shields.io/badge/-NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
 ![ElysiaJS](https://img.shields.io/badge/-ElysiaJS-7C3AED?style=flat-square&logoColor=white)
-![Django](https://img.shields.io/badge/-Django-092E20?style=flat-square&logo=django&logoColor=white)
-![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Laravel](https://img.shields.io/badge/-Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white)
-![Chi](https://img.shields.io/badge/-Chi-00ADD8?style=flat-square&logo=go&logoColor=white)
-![Fiber](https://img.shields.io/badge/-Fiber-00ADD8?style=flat-square&logo=go&logoColor=white)
-
-**Data & Infrastructure**
-
 ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![Redis](https://img.shields.io/badge/-Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
 ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Linux](https://img.shields.io/badge/-Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 ![Caddy](https://img.shields.io/badge/-Caddy-1F88C0?style=flat-square&logo=caddy&logoColor=white)
-![Tauri](https://img.shields.io/badge/-Tauri-FFC131?style=flat-square&logo=tauri&logoColor=black)
 ![MinIO](https://img.shields.io/badge/-MinIO-C72E49?style=flat-square&logo=minio&logoColor=white)
 
 ---
