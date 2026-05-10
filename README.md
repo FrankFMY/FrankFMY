@@ -1,6 +1,6 @@
 <div align="center">
 
-# Artyom Pryanishnikov
+# Artem Frank
 
 **Founder & CTO / Senior Full-Stack Product Engineer**
 
