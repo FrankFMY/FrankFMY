@@ -14,6 +14,7 @@ Production systems across TypeScript, SvelteKit, Go, PostgreSQL, Redis, AI workf
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/frankfmy/)
 [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/FrankFMY)
+[![Email](https://img.shields.io/badge/Email-6D4AFF?style=for-the-badge&logo=protonmail&logoColor=white)](mailto:frankfmy@proton.me)
 [![Website](https://img.shields.io/badge/frankfmy.com-000?style=for-the-badge&logo=safari&logoColor=white)](https://frankfmy.com)
 [![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/FrankFMY)
 
@@ -37,7 +38,7 @@ Production systems across TypeScript, SvelteKit, Go, PostgreSQL, Redis, AI workf
 | **TenderCRM** | AI-assisted CRM/SaaS for regulated procurement workflows: discovery, scoring, AI document audit, CRM pipeline, tasks, contracts, analytics, billing and admin operations. | TypeScript, SvelteKit, Bun, Elysia, PostgreSQL, Drizzle, Redis, Caddy |
 | **TenderCheck AI** | Focused paid product for personalized AI tender analysis from a public tender link and a company profile. | AI workflows, document parsing, paid reports, admin, billing boundary |
 | **ShipLog** | AI product that converts git activity into LinkedIn/X/Telegram posts, engineering reports, resume material and product stories with evidence grounding. | TypeScript, SvelteKit, LLM workflows, quality gates |
-| **BizEngine** | Backend engine for digital twins of businesses: ECS model, Event Sourcing, YAML state machines, modules for warehouse, orders, finance, HR, logistics, CRM and documents. | Go, PostgreSQL, Redis, Centrifugo, MinIO |
+| **[BizEngine](https://github.com/FrankFMY/Bizengine)** | Backend engine for digital twins of businesses: ECS model, Event Sourcing, YAML state machines, modules for warehouse, orders, finance, HR, logistics, CRM and documents. | Go, PostgreSQL, Redis, Centrifugo, MinIO |
 | **[Arcana](https://github.com/FrankFMY/Arcana)** | Reactive graph sync engine for PostgreSQL-backed applications: graph subscriptions, normalized store, JSON Patch diffs and realtime transports. | Go, PostgreSQL, WebSocket/Centrifugo |
 | **[Burrow](https://github.com/FrankFMY/burrow)** | Self-hosted VPN/proxy product with modern proxy protocols, invite flows, admin direction and desktop client direction. | Go, Svelte, Tauri, networking |
 | **[AURA](https://github.com/FrankFMY/AURA)** | Decentralized social messenger on Nostr with realtime feeds, encrypted DMs, relays and wallet/payment integrations. | TypeScript, Svelte, Nostr |
@@ -52,9 +53,9 @@ I contribute to developer tools and web infrastructure used by large engineering
 |---|---:|---|
 | **[Svelte](https://github.com/sveltejs/svelte)** | 86k+ stars | [7 merged PRs](https://github.com/sveltejs/svelte/pulls?q=is%3Apr+author%3AFrankFMY+is%3Amerged): reactive store detection, template/block-expression behavior, invalidation/state handling |
 | **[SvelteKit](https://github.com/sveltejs/kit)** | 20k+ stars | [5 merged PRs](https://github.com/sveltejs/kit/pulls?q=is%3Apr+author%3AFrankFMY+is%3Amerged): remote function errors, developer experience improvements |
-| **[Biome](https://github.com/biomejs/biome)** | 23k+ stars | [3 merged PRs](https://github.com/biomejs/biome/pulls?q=is%3Apr+author%3AFrankFMY+is%3Amerged): async generator rules, formatter directives, diagnostics |
-| **[OXC](https://github.com/oxc-project/oxc)** | 19k+ stars | [2 merged PRs](https://github.com/oxc-project/oxc/pulls?q=is%3Apr+author%3AFrankFMY+is%3Amerged): diagnostic message improvements |
-| **[Bun](https://github.com/oven-sh/bun)** | 87k+ stars | [Open PRs](https://github.com/oven-sh/bun/pulls?q=is%3Apr+author%3AFrankFMY): fetch API errors, S3 client behavior |
+| **[Biome](https://github.com/biomejs/biome)** | 24k+ stars | [3 merged PRs](https://github.com/biomejs/biome/pulls?q=is%3Apr+author%3AFrankFMY+is%3Amerged): async generator rules, formatter directives, diagnostics |
+| **[OXC](https://github.com/oxc-project/oxc)** | 21k+ stars | [2 merged PRs](https://github.com/oxc-project/oxc/pulls?q=is%3Apr+author%3AFrankFMY+is%3Amerged): diagnostic message improvements |
+| **[Bun](https://github.com/oven-sh/bun)** | 92k+ stars | [Open PRs](https://github.com/oven-sh/bun/pulls?q=is%3Apr+author%3AFrankFMY): fetch API errors, S3 client behavior |
 
 ---
 
