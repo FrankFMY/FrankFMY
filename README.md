@@ -1,6 +1,6 @@
 <div align="center">
 
-# Artem Pryanishnikov
+# Artem Prianishnikov
 
 **Senior Backend / Product Engineer**
 
@@ -33,6 +33,7 @@ I run [Frank Systems](https://frankfmy.com), an independent product engineering 
 
 | Repository | What it is |
 |---|---|
+| [**AURA**](https://github.com/FrankFMY/AURA) | Solo-built decentralized Nostr client with NIP-17/NIP-44 messaging, relay failover, local-first persistence, payments, PWA and desktop/mobile packaging; 817 passing unit tests |
 | [**maximal-square-visualizer**](https://github.com/FrankFMY/maximal-square-visualizer) | Interactive TypeScript visualizer for the optimal dynamic-programming solution to Maximal Square, with Vitest coverage and oracle checks |
 | [**ru-procurement-toolkit**](https://github.com/FrankFMY/ru-procurement-toolkit) | Framework-neutral TypeScript utilities for Russian procurement and tender products |
 | [**Arcana**](https://github.com/FrankFMY/Arcana) | Go R&D project for PostgreSQL-backed reactive graph synchronization |
