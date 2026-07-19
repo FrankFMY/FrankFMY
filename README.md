@@ -33,7 +33,7 @@ I run [Frank Systems](https://frankfmy.com), an independent product engineering 
 
 | Repository | What it is |
 |---|---|
-| [**AURA**](https://github.com/FrankFMY/AURA) | Solo-built decentralized Nostr client with NIP-17/NIP-44 messaging, relay failover, local-first persistence, experimental wallet integrations, PWA and desktop/mobile packaging; 800+ unit tests |
+| [**AURA**](https://github.com/FrankFMY/AURA) | Solo-built private Nostr messenger with NIP-17/NIP-44/NIP-59 messaging, signed invitations, Passkey/PRF identity custody, relay replay, durable outbox/inbox persistence, mobile/PWA UX, 100+ unit tests and browser E2E coverage |
 | [**maximal-square-visualizer**](https://github.com/FrankFMY/maximal-square-visualizer) | Interactive TypeScript visualizer for the optimal dynamic-programming solution to Maximal Square, with Vitest coverage and oracle checks |
 | [**ru-procurement-toolkit**](https://github.com/FrankFMY/ru-procurement-toolkit) | Framework-neutral TypeScript utilities for Russian procurement and tender products |
 | [**Arcana**](https://github.com/FrankFMY/Arcana) | Go R&D project for PostgreSQL-backed reactive graph synchronization |
