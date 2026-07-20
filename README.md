@@ -2,11 +2,11 @@
 
 # Artem Prianishnikov
 
-**Senior Backend / Product Engineer**
+**Senior Software Engineer**
 
-TypeScript · Node.js/Bun · PostgreSQL · Go
+TypeScript · Node.js · React / Next.js · PostgreSQL
 
-I build backend-heavy products where data integrity, system boundaries, and production reliability matter.
+Backend-first engineer building product systems from ambiguous requirements to reliable production.
 
 [Website](https://frankfmy.com) · [LinkedIn](https://www.linkedin.com/in/frankfmy/) · [Telegram](https://t.me/FrankFMY) · [Email](mailto:pryanishnikovartem@gmail.com) · [X](https://x.com/FrankFMY)
 
@@ -14,30 +14,33 @@ I build backend-heavy products where data integrity, system boundaries, and prod
 
 ---
 
-## Profile
+## What I do
 
-I work across architecture, implementation, review, deployment, and incident response. Recent systems include multi-tenant B2B SaaS, procurement workflows, industrial telemetry, collaborative business software, and evidence-grounded AI pipelines.
+I design and ship backend-heavy product systems: data models, APIs, integrations, background workflows, authentication and authorization, testing, deployment, observability, and incident recovery. I can deliver the complete product vertical with React/Next.js or SvelteKit, while my strongest work is in backend architecture, data integrity, and production reliability.
 
-I run [Frank Systems](https://frankfmy.com), an independent product engineering practice and home for my own products. AI coding agents accelerate implementation and research; I keep ownership of constraints, architecture, security, tests, debugging, and production outcomes.
+Recent work spans multi-tenant B2B SaaS, procurement workflows, industrial telemetry, collaborative business software, secure messaging, and evidence-grounded AI systems.
+
+I use AI coding agents to accelerate research, implementation, and review, while retaining responsibility for constraints, architecture, security, tests, debugging, and production outcomes.
 
 ## Selected engineering work
 
 | System | Scope | Engineering signal |
 |---|---|---|
-| [**TenderHQ**](https://tenderhq.ru) | Multi-tenant procurement workflows, ingestion and scoring, CRM, AI document analysis, background jobs, auth, and operations tooling | Reduced pending queue work by more than 90% by enforcing a missing domain invariant; hardened tenant isolation across secondary lookups and document paths |
-| **Industrial telemetry platform** | Read-only upper software/data contour around Go, MQTT, PostgreSQL/TimescaleDB, alerts, and operational APIs | Batched persistence, WAL-based recovery, deduplication, bounded time-series queries, health checks, and exact-artifact delivery |
-| **Collaborative business platform** | Server contracts, versioning, synchronization, compiler/runtime boundaries, migrations, and infrastructure | Integrated a collaborator-authored canonical editor through explicit adapters and contract tests, then removed the legacy compatibility path after migration |
-| **ShipLog** | Git/GitHub evidence pipeline for contributor attribution, engineering reports, and grounded professional content | Structured evidence, multi-author attribution, async processing, quality gates, and human review |
+| [**AURA**](https://github.com/FrankFMY/AURA) | Private browser-based Nostr messenger with encrypted one-to-one messaging, signed invitations, Passkey/PRF identity custody, device linking, relay replay, and durable inbox/outbox persistence | Solo-built and released with explicit custody and delivery semantics, fail-closed boundaries, 200+ unit tests, and browser E2E coverage |
+| [**TenderHQ**](https://tenderhq.ru) | Multi-tenant procurement product with ingestion, scoring, CRM, AI document workflows, background jobs, auth, and operations tooling | Reduced pending queue work by more than 90% by restoring a missing domain invariant; hardened tenant isolation across secondary lookups and document paths |
+| **Industrial telemetry platform** | Read-only upper software/data contour around MQTT, PostgreSQL/TimescaleDB, alerts, APIs, and operational workflows | Batched persistence, WAL-based crash recovery, deduplication, bounded time-series queries, health checks, and exact-artifact delivery |
+| **Collaborative business platform** | Backend and integration boundaries for versioned, synchronized business workflows | Integrated a collaborator-authored canonical editor through explicit adapters and contract tests, then removed the legacy compatibility path after migration |
 
-## Public code
+## Selected public code
 
-| Repository | What it is |
+| Repository | Engineering focus |
 |---|---|
-| [**AURA**](https://github.com/FrankFMY/AURA) | Solo-built private Nostr messenger with NIP-17/NIP-44/NIP-59 messaging, signed invitations, Passkey/PRF identity custody, relay replay, durable outbox/inbox persistence, mobile/PWA UX, 100+ unit tests and browser E2E coverage |
-| [**maximal-square-visualizer**](https://github.com/FrankFMY/maximal-square-visualizer) | Interactive TypeScript visualizer for the optimal dynamic-programming solution to Maximal Square, with Vitest coverage and oracle checks |
-| [**ru-procurement-toolkit**](https://github.com/FrankFMY/ru-procurement-toolkit) | Framework-neutral TypeScript utilities for Russian procurement and tender products |
-| [**Arcana**](https://github.com/FrankFMY/Arcana) | Go R&D project for PostgreSQL-backed reactive graph synchronization |
-| [**Bizengine**](https://github.com/FrankFMY/Bizengine) | Go R&D project for modular business-system modeling with ECS and event-sourced concepts |
+| [**AURA**](https://github.com/FrankFMY/AURA) | TypeScript, secure stateful workflows, WebAuthn custody, Nostr protocol integration, durable browser storage, Vitest, and Playwright |
+| [**ru-procurement-toolkit**](https://github.com/FrankFMY/ru-procurement-toolkit) | Framework-neutral TypeScript utilities with explicit public/proprietary boundaries and automated verification |
+| [**maximal-square-visualizer**](https://github.com/FrankFMY/maximal-square-visualizer) | Interactive TypeScript dynamic-programming visualizer with exhaustive oracle checks for small matrices |
+| [**Arcana**](https://github.com/FrankFMY/Arcana) | Go and TypeScript R&D for PostgreSQL-backed reactive graph synchronization, WebSocket delivery, normalized diffs, and framework adapters |
+| [**Bizengine**](https://github.com/FrankFMY/Bizengine) | Go R&D for modular business-system modeling with ECS, event-sourced concepts, PostgreSQL, and real-time workflows |
+| [**buddy-evolution**](https://github.com/FrankFMY/buddy-evolution) | Local Node.js plugin for Claude Code with session hooks, progression state, and automated tests |
 
 ## Open source
 
@@ -55,10 +58,12 @@ I run [Frank Systems](https://frankfmy.com), an independent product engineering 
 <p>
   <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white">
   <img alt="Node.js" src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white">
-  <img alt="Bun" src="https://img.shields.io/badge/Bun-000000?style=flat-square&logo=bun&logoColor=white">
+  <img alt="NestJS" src="https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white">
+  <img alt="Express" src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white">
+  <img alt="React" src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB">
+  <img alt="Next.js" src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white">
   <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white">
   <img alt="Redis" src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white">
-  <img alt="Go" src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white">
   <img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white">
   <img alt="Linux" src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black">
   <img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white">
@@ -66,4 +71,4 @@ I run [Frank Systems](https://frankfmy.com), an independent product engineering 
 
 ## Work
 
-Open to senior backend/product engineering, technical leadership, engineering management, and well-scoped early-stage CTO roles. Remote contracts are welcome; full-time and hybrid opportunities are on the table when the company, authority, and compensation justify the commitment.
+Open to senior software, backend, backend-heavy full-stack, product engineering, and hands-on technical leadership roles. Remote contract or full-time work is preferred; exceptional hybrid and relocation opportunities are considered.
