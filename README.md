@@ -20,27 +20,31 @@ I design and ship backend-heavy product systems: data models, APIs, integrations
 
 Recent work spans multi-tenant B2B SaaS, procurement workflows, industrial telemetry, collaborative business software, secure messaging, and evidence-grounded AI systems.
 
-I use AI coding agents to accelerate research, implementation, and review, while retaining responsibility for constraints, architecture, security, tests, debugging, and production outcomes.
+I work evidence-first: explicit invariants, transaction and concurrency boundaries, test-driven changes, exact artifact identity, fresh-clone verification, and rollback-aware production delivery.
 
 ## Selected engineering work
 
 | System | Scope | Engineering signal |
 |---|---|---|
-| [**AURA**](https://github.com/FrankFMY/AURA) | Private browser-based Nostr messenger with encrypted one-to-one messaging, signed invitations, Passkey/PRF identity custody, device linking, relay replay, and durable inbox/outbox persistence | Solo-built and released with explicit custody and delivery semantics, fail-closed boundaries, 200+ unit tests, and browser E2E coverage |
+| [**AURA**](https://github.com/FrankFMY/AURA) | Privacy-first browser-based Nostr messenger with encrypted one-to-one messaging, signed invitations, Passkey/PRF identity custody, device linking, relay replay, and durable inbox/outbox persistence | Solo-built and released with explicit custody and delivery semantics, fail-closed boundaries, unit tests, and browser E2E coverage |
 | [**TenderHQ**](https://tenderhq.ru) | Multi-tenant procurement product with ingestion, scoring, CRM, AI document workflows, background jobs, auth, and operations tooling | Reduced pending queue work by more than 90% by restoring a missing domain invariant; hardened tenant isolation across secondary lookups and document paths |
 | **Industrial telemetry platform** | Read-only upper software/data contour around MQTT, PostgreSQL/TimescaleDB, alerts, APIs, and operational workflows | Batched persistence, WAL-based crash recovery, deduplication, bounded time-series queries, health checks, and exact-artifact delivery |
-| **Collaborative business platform** | Backend and integration boundaries for versioned, synchronized business workflows | Integrated a collaborator-authored canonical editor through explicit adapters and contract tests, then removed the legacy compatibility path after migration |
+| **Collaborative business platform** | Backend and integration boundaries for versioned, synchronized business workflows | Integrated a canonical visual editor through explicit adapters and contract tests, migrated active consumers, and removed the legacy compatibility path after parity proof |
 
 ## Selected public code
 
 | Repository | Engineering focus |
 |---|---|
 | [**AURA**](https://github.com/FrankFMY/AURA) | TypeScript, secure stateful workflows, WebAuthn custody, Nostr protocol integration, durable browser storage, Vitest, and Playwright |
-| [**ru-procurement-toolkit**](https://github.com/FrankFMY/ru-procurement-toolkit) | Framework-neutral TypeScript utilities with explicit public/proprietary boundaries and automated verification |
-| [**maximal-square-visualizer**](https://github.com/FrankFMY/maximal-square-visualizer) | Interactive TypeScript dynamic-programming visualizer with exhaustive oracle checks for small matrices |
+| [**exact-source-audit**](https://github.com/FrankFMY/exact-source-audit) | Exact Git-index secret scanning and deterministic CycloneDX SBOM generation without dereferencing worktree symlinks or printing secret values |
+| [**canvas-geometry**](https://github.com/FrankFMY/canvas-geometry) | Low-level 2D geometry, collision semantics, spatial indexing, Canvas rendering, and deterministic server animation backed by 1,627 behavior tests |
+| [**modbus-edge-agent**](https://github.com/FrankFMY/modbus-edge-agent) | Python, read-only Modbus RTU, semantic register decoding, synthetic provenance, credential-free durable buffering, MQTT QoS 1, and hardened systemd packaging |
+| [**totp-recovery-kit**](https://github.com/FrankFMY/totp-recovery-kit) | RFC 6238 vectors, replay-step authority, identity-bound AES-256-GCM TOTP envelopes, and Argon2id hash-only recovery codes |
+| [**connector-contracts**](https://github.com/FrankFMY/connector-contracts) | Strict versioned connector manifests, bounded event envelopes, prototype-safe payload validation, and domain-separated signature bytes |
 | [**Arcana**](https://github.com/FrankFMY/Arcana) | Go and TypeScript R&D for PostgreSQL-backed reactive graph synchronization, WebSocket delivery, normalized diffs, and framework adapters |
-| [**Bizengine**](https://github.com/FrankFMY/Bizengine) | Go R&D for modular business-system modeling with ECS, event-sourced concepts, PostgreSQL, and real-time workflows |
-| [**buddy-evolution**](https://github.com/FrankFMY/buddy-evolution) | Local Node.js plugin for Claude Code with session hooks, progression state, and automated tests |
+| [**ru-procurement-toolkit**](https://github.com/FrankFMY/ru-procurement-toolkit) | Framework-neutral TypeScript utilities for procurement identifiers, money, deadlines, scoring, workflow transitions, and redaction |
+
+Additional focused TypeScript libraries: [canonical-json-fingerprint](https://github.com/FrankFMY/canonical-json-fingerprint), [typed-unit-system](https://github.com/FrankFMY/typed-unit-system), and [async-control](https://github.com/FrankFMY/async-control).
 
 ## Open source
 
@@ -58,6 +62,8 @@ I use AI coding agents to accelerate research, implementation, and review, while
 <p>
   <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white">
   <img alt="Node.js" src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white">
+  <img alt="Go" src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white">
+  <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white">
   <img alt="NestJS" src="https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white">
   <img alt="Express" src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white">
   <img alt="React" src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB">
@@ -71,4 +77,4 @@ I use AI coding agents to accelerate research, implementation, and review, while
 
 ## Work
 
-Open to senior software, backend, backend-heavy full-stack, product engineering, and hands-on technical leadership roles. Remote contract or full-time work is preferred; exceptional hybrid and relocation opportunities are considered.
+Open to Senior Software Engineer, Backend / Product Engineer, Tech Lead, and hands-on engineering leadership opportunities. Remote contract or full-time.
