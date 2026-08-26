@@ -2,11 +2,11 @@
 
 # Artem Prianishnikov
 
-**Senior Software Engineer**
+**Senior Backend / Platform Engineer**
 
-TypeScript · Node.js · React / Next.js · PostgreSQL
+TypeScript · Node.js · Go · Python · PostgreSQL
 
-Backend-first engineer building product systems from ambiguous requirements to reliable production.
+Building reliable product and platform systems from ambiguous requirements to verified production.
 
 [Website](https://frankfmy.com) · [LinkedIn](https://www.linkedin.com/in/frankfmy/) · [Telegram](https://t.me/FrankFMY) · [Email](mailto:pryanishnikovartem@gmail.com) · [X](https://x.com/FrankFMY)
 
@@ -18,7 +18,7 @@ Backend-first engineer building product systems from ambiguous requirements to r
 
 I design and ship backend-heavy product systems: data models, APIs, integrations, background workflows, authentication and authorization, testing, deployment, observability, and incident recovery. I can deliver the complete product vertical with React/Next.js or SvelteKit, while my strongest work is in backend architecture, data integrity, and production reliability.
 
-Recent work spans multi-tenant B2B SaaS, procurement workflows, industrial telemetry, collaborative business software, secure messaging, and evidence-grounded AI systems.
+Recent work spans multi-tenant B2B SaaS, procurement workflows, industrial telemetry, collaborative business software, secure messaging, developer tooling, and deterministic financial analytics.
 
 I work evidence-first: explicit invariants, transaction and concurrency boundaries, test-driven changes, exact artifact identity, fresh-clone verification, and rollback-aware production delivery.
 
@@ -36,15 +36,21 @@ I work evidence-first: explicit invariants, transaction and concurrency boundari
 | Repository | Engineering focus |
 |---|---|
 | [**AURA**](https://github.com/FrankFMY/AURA) | TypeScript, secure stateful workflows, WebAuthn custody, Nostr protocol integration, durable browser storage, Vitest, and Playwright |
+| [**service-slo-watchdog**](https://github.com/FrankFMY/service-slo-watchdog) | Dependency-free Python SLO probes, bounded HTTP transport, atomic alert/recovery state, corruption recovery, and deduplicated transitions |
 | [**exact-source-audit**](https://github.com/FrankFMY/exact-source-audit) | Exact Git-index secret scanning and deterministic CycloneDX SBOM generation without dereferencing worktree symlinks or printing secret values |
+| [**git-activity-analysis-core**](https://github.com/FrankFMY/git-activity-analysis-core) | Privacy-aware local Git scanning, deterministic repository analytics, Conventional Commit classification, and resource-bounded clustering |
+| [**order-risk-engine**](https://github.com/FrankFMY/order-risk-engine) | Decimal-only, exchange-neutral pre-trade sizing with explicit notional, risk, leverage, quantity-step, and portfolio limits |
+| [**fifo-cost-basis**](https://github.com/FrankFMY/fifo-cost-basis) | Decimal FIFO lot matching, proportional fee allocation, realized PnL, open lots, partial coverage, and explicit quality flags |
+| [**schema-evolution-planner**](https://github.com/FrankFMY/schema-evolution-planner) | Deterministic flat-schema evolution plans with injected type compatibility, stable fingerprints, and explicit migration resolutions |
 | [**canvas-geometry**](https://github.com/FrankFMY/canvas-geometry) | Low-level 2D geometry, collision semantics, spatial indexing, Canvas rendering, and deterministic server animation backed by 1,627 behavior tests |
 | [**modbus-edge-agent**](https://github.com/FrankFMY/modbus-edge-agent) | Python, read-only Modbus RTU, semantic register decoding, synthetic provenance, credential-free durable buffering, MQTT QoS 1, and hardened systemd packaging |
+| [**deterministic-sphere-network**](https://github.com/FrankFMY/deterministic-sphere-network) | Seeded Fibonacci-sphere geometry, bounded-degree proximity graphs, strict numeric guards, and GPU-ready typed buffers |
 | [**totp-recovery-kit**](https://github.com/FrankFMY/totp-recovery-kit) | RFC 6238 vectors, replay-step authority, identity-bound AES-256-GCM TOTP envelopes, and Argon2id hash-only recovery codes |
 | [**connector-contracts**](https://github.com/FrankFMY/connector-contracts) | Strict versioned connector manifests, bounded event envelopes, prototype-safe payload validation, and domain-separated signature bytes |
-| [**Arcana**](https://github.com/FrankFMY/Arcana) | Go and TypeScript R&D for PostgreSQL-backed reactive graph synchronization, WebSocket delivery, normalized diffs, and framework adapters |
-| [**ru-procurement-toolkit**](https://github.com/FrankFMY/ru-procurement-toolkit) | Framework-neutral TypeScript utilities for procurement identifiers, money, deadlines, scoring, workflow transitions, and redaction |
 
-Broader TypeScript toolkit: [fmy-stack](https://github.com/FrankFMY/fmy-stack). Additional focused libraries: [canonical-json-fingerprint](https://github.com/FrankFMY/canonical-json-fingerprint), [typed-unit-system](https://github.com/FrankFMY/typed-unit-system), and [async-control](https://github.com/FrankFMY/async-control).
+Additional focused libraries: [canonical-json-fingerprint](https://github.com/FrankFMY/canonical-json-fingerprint), [typed-unit-system](https://github.com/FrankFMY/typed-unit-system), and [async-control](https://github.com/FrankFMY/async-control). Broader toolkits: [ru-procurement-toolkit](https://github.com/FrankFMY/ru-procurement-toolkit) and [fmy-stack](https://github.com/FrankFMY/fmy-stack).
+
+The focused repositories use explicit licenses and security boundaries, hosted CI across supported runtimes, versioned release artifacts, and fresh-clone/package verification.
 
 ## Open source
 
@@ -77,4 +83,4 @@ Broader TypeScript toolkit: [fmy-stack](https://github.com/FrankFMY/fmy-stack). 
 
 ## Work
 
-Open to Senior Software Engineer, Backend / Product Engineer, Tech Lead, and hands-on engineering leadership opportunities. Remote contract or full-time.
+Open to Senior Backend / Platform Engineer, Product Engineer, Tech Lead, and hands-on engineering leadership opportunities. Remote contract or full-time.
