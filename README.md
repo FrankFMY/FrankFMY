@@ -44,7 +44,7 @@ I work evidence-first: explicit invariants, transaction and concurrency boundari
 | [**Arcana**](https://github.com/FrankFMY/Arcana) | Go and TypeScript R&D for PostgreSQL-backed reactive graph synchronization, WebSocket delivery, normalized diffs, and framework adapters |
 | [**ru-procurement-toolkit**](https://github.com/FrankFMY/ru-procurement-toolkit) | Framework-neutral TypeScript utilities for procurement identifiers, money, deadlines, scoring, workflow transitions, and redaction |
 
-Additional focused TypeScript libraries: [canonical-json-fingerprint](https://github.com/FrankFMY/canonical-json-fingerprint), [typed-unit-system](https://github.com/FrankFMY/typed-unit-system), and [async-control](https://github.com/FrankFMY/async-control).
+Broader TypeScript toolkit: [fmy-stack](https://github.com/FrankFMY/fmy-stack). Additional focused libraries: [canonical-json-fingerprint](https://github.com/FrankFMY/canonical-json-fingerprint), [typed-unit-system](https://github.com/FrankFMY/typed-unit-system), and [async-control](https://github.com/FrankFMY/async-control).
 
 ## Open source
 
