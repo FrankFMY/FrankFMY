@@ -1,86 +1,70 @@
-<div align="center">
-
 # Artem Prianishnikov
 
-**Senior Backend / Platform Engineer**
+**Senior Software Engineer · Product builder · Hands-on technical leader**
 
-TypeScript · Node.js · Go · Python · PostgreSQL
+I turn complicated business problems into software that works in the real world. Backend architecture is my home ground; taking a product from a rough idea to production is where I do my best work.
 
-Building reliable product and platform systems from ambiguous requirements to verified production.
+I run **[Frank Systems](https://frankfmy.com)**, my independent product engineering practice, and build products of my own. I bring engineering depth, a founder's sense of priorities and the habit of staying accountable after launch.
 
-[Website](https://frankfmy.com) · [LinkedIn](https://www.linkedin.com/in/frankfmy/) · [Telegram](https://t.me/FrankFMY) · [Email](mailto:pryanishnikovartem@gmail.com) · [X](https://x.com/FrankFMY)
+**Have a difficult system to build or a team that needs a technical lead? [Let's talk](https://t.me/FrankFMY).**
 
-</div>
+## What you can bring me
 
----
+- **A product that needs an owner.** I connect the business workflow to the architecture, data model and implementation, then carry it through deployment and day-to-day operation. Fewer handoffs between “someone should” and “it's shipped.”
+- **A backend that has become the bottleneck.** Multi-tenant SaaS, integrations, background jobs, AI document workflows, authorization and data integrity are familiar territory. I look for the underlying rule that's missing, not just another worker to add.
+- **A team facing a difficult delivery.** I make technical decisions, define useful boundaries, break large changes into shippable pieces and work hands-on alongside the team. Leadership should make other people's work easier.
 
-## What I do
+My default is simple: understand what the business needs, be clear about the trade-offs, and finish the job. The architecture diagram should not be the most finished part of the product.
 
-I design and ship backend-heavy product systems: data models, APIs, integrations, background workflows, authentication and authorization, testing, deployment, observability, and incident recovery. I can deliver the complete product vertical with React/Next.js or SvelteKit, while my strongest work is in backend architecture, data integrity, and production reliability.
+## Work that says more than a title
 
-Recent work spans multi-tenant B2B SaaS, procurement workflows, industrial telemetry, collaborative business software, secure messaging, developer tooling, and deterministic financial analytics.
+**Procurement SaaS.** Built across ingestion, company-specific scoring, CRM, AI document workflows, billing and operations. In [TenderHQ](https://tenderhq.ru), restoring a missing domain invariant cut pending queue work by **more than 90%**. Hardened tenant isolation across secondary lookups and document access.
 
-I work evidence-first: explicit invariants, transaction and concurrency boundaries, test-driven changes, exact artifact identity, fresh-clone verification, and rollback-aware production delivery.
+**Industrial telemetry.** Engineered the software path from incoming MQTT data to PostgreSQL/TimescaleDB, APIs, dashboards and alerts. Added batched persistence, WAL-based crash recovery, deduplication and bounded time-series queries so operational data could survive failures and remain useful.
 
-## Selected engineering work
+**Collaborative business software.** Integrated a canonical visual editor into a versioned, synchronized workflow platform. Migrated active consumers with contract tests and retired the old implementation after proving parity, turning a major integration into one coherent product path.
 
-| System | Scope | Engineering signal |
-|---|---|---|
-| [**AURA**](https://github.com/FrankFMY/AURA) | Privacy-first browser-based Nostr messenger with encrypted one-to-one messaging, signed invitations, Passkey/PRF identity custody, device linking, relay replay, and durable inbox/outbox persistence | Solo-built and released with explicit custody and delivery semantics, fail-closed boundaries, unit tests, and browser E2E coverage |
-| [**TenderHQ**](https://tenderhq.ru) | Multi-tenant procurement product with ingestion, scoring, CRM, AI document workflows, background jobs, auth, and operations tooling | Reduced pending queue work by more than 90% by restoring a missing domain invariant; hardened tenant isolation across secondary lookups and document paths |
-| **Industrial telemetry platform** | Read-only upper software/data contour around MQTT, PostgreSQL/TimescaleDB, alerts, APIs, and operational workflows | Batched persistence, WAL-based crash recovery, deduplication, bounded time-series queries, health checks, and exact-artifact delivery |
-| **Collaborative business platform** | Backend and integration boundaries for versioned, synchronized business workflows | Integrated a canonical visual editor through explicit adapters and contract tests, migrated active consumers, and removed the legacy compatibility path after parity proof |
+**[AURA](https://github.com/FrankFMY/AURA).** Designed, built and released a browser-based encrypted messenger: user-owned identity, Passkey-protected keys, device linking and durable message queues. A complete product, from protocol and security decisions to the interface and browser tests. [Try it](https://aura.frankfmy.com).
 
-## Selected public code
+## I fix the tools I depend on, too
 
-| Repository | Engineering focus |
-|---|---|
-| [**AURA**](https://github.com/FrankFMY/AURA) | TypeScript, secure stateful workflows, WebAuthn custody, Nostr protocol integration, durable browser storage, Vitest, and Playwright |
-| [**service-slo-watchdog**](https://github.com/FrankFMY/service-slo-watchdog) | Dependency-free Python SLO probes, bounded HTTP transport, atomic alert/recovery state, corruption recovery, and deduplicated transitions |
-| [**exact-source-audit**](https://github.com/FrankFMY/exact-source-audit) | Exact Git-index secret scanning and deterministic CycloneDX SBOM generation without dereferencing worktree symlinks or printing secret values |
-| [**git-activity-analysis-core**](https://github.com/FrankFMY/git-activity-analysis-core) | Privacy-aware local Git scanning, deterministic repository analytics, Conventional Commit classification, and resource-bounded clustering |
-| [**order-risk-engine**](https://github.com/FrankFMY/order-risk-engine) | Decimal-only, exchange-neutral pre-trade sizing with explicit notional, risk, leverage, quantity-step, and portfolio limits |
-| [**fifo-cost-basis**](https://github.com/FrankFMY/fifo-cost-basis) | Decimal FIFO lot matching, proportional fee allocation, realized PnL, open lots, partial coverage, and explicit quality flags |
-| [**schema-evolution-planner**](https://github.com/FrankFMY/schema-evolution-planner) | Deterministic flat-schema evolution plans with injected type compatibility, stable fingerprints, and explicit migration resolutions |
-| [**canvas-geometry**](https://github.com/FrankFMY/canvas-geometry) | Low-level 2D geometry, collision semantics, spatial indexing, Canvas rendering, and deterministic server animation backed by 1,627 behavior tests |
-| [**modbus-edge-agent**](https://github.com/FrankFMY/modbus-edge-agent) | Python, read-only Modbus RTU, semantic register decoding, synthetic provenance, credential-free durable buffering, MQTT QoS 1, and hardened systemd packaging |
-| [**deterministic-sphere-network**](https://github.com/FrankFMY/deterministic-sphere-network) | Seeded Fibonacci-sphere geometry, bounded-degree proximity graphs, strict numeric guards, and GPU-ready typed buffers |
-| [**totp-recovery-kit**](https://github.com/FrankFMY/totp-recovery-kit) | RFC 6238 vectors, replay-step authority, identity-bound AES-256-GCM TOTP envelopes, and Argon2id hash-only recovery codes |
-| [**connector-contracts**](https://github.com/FrankFMY/connector-contracts) | Strict versioned connector manifests, bounded event envelopes, prototype-safe payload validation, and domain-separated signature bytes |
+**18 merged pull requests** across [Svelte](https://github.com/sveltejs/svelte/pulls?q=is%3Apr+author%3AFrankFMY+is%3Amerged), [SvelteKit](https://github.com/sveltejs/kit/pulls?q=is%3Apr+author%3AFrankFMY+is%3Amerged), [Biome](https://github.com/biomejs/biome/pulls?q=is%3Apr+author%3AFrankFMY+is%3Amerged) and [OXC](https://github.com/oxc-project/oxc/pulls?q=is%3Apr+author%3AFrankFMY+is%3Amerged), spanning runtime/compiler behavior, lint correctness, diagnostics, documentation and tests.
 
-Additional focused libraries: [canonical-json-fingerprint](https://github.com/FrankFMY/canonical-json-fingerprint), [typed-unit-system](https://github.com/FrankFMY/typed-unit-system), and [async-control](https://github.com/FrankFMY/async-control). Broader toolkits: [ru-procurement-toolkit](https://github.com/FrankFMY/ru-procurement-toolkit) and [fmy-stack](https://github.com/FrankFMY/fmy-stack).
+A few examples: [fixing a Svelte reactive update loop](https://github.com/sveltejs/svelte/pull/17645), [preserving compatibility with patched History APIs](https://github.com/sveltejs/kit/pull/15267), and [keeping TypeScript module semantics intact during import cleanup](https://github.com/biomejs/biome/pull/8977).
 
-The focused repositories use explicit licenses and security boundaries, hosted CI across supported runtimes, versioned release artifacts, and fresh-clone/package verification.
+## A few things you can use
 
-## Open source
+| Project | What it solves |
+| --- | --- |
+| [typed-document-runtime](https://github.com/FrankFMY/typed-document-runtime) | Typed document schemas, structural compatibility and bounded execution in TypeScript. |
+| [realine-core](https://github.com/FrankFMY/realine-core) | Transport-independent streams, list windows and presence shared across Rust and TypeScript/Wasm. |
+| [state-motion](https://github.com/FrankFMY/state-motion) | State interpolation and lifecycle mechanics, with optional Svelte adapters. |
+| [exact-source-audit](https://github.com/FrankFMY/exact-source-audit) | Secret scanning of the exact Git index and deterministic CycloneDX SBOMs for Bun projects. |
+| [service-slo-watchdog](https://github.com/FrankFMY/service-slo-watchdog) | Bounded external health/revision probes with deduplicated alert and recovery transitions. |
 
-**18 merged pull requests** across Svelte, SvelteKit, Biome, and OXC.
+<details>
+<summary>More public engineering, by problem</summary>
 
-| Project | Merged work |
-|---|---:|
-| [Svelte](https://github.com/sveltejs/svelte/pulls?q=is%3Apr+author%3AFrankFMY+is%3Amerged) | 7 PRs: compiler/runtime fixes, accessibility behavior, migration docs, and test maintenance |
-| [SvelteKit](https://github.com/sveltejs/kit/pulls?q=is%3Apr+author%3AFrankFMY+is%3Amerged) | 6 PRs: precompression, navigation types, history API compatibility, warning behavior, and docs |
-| [Biome](https://github.com/biomejs/biome/pulls?q=is%3Apr+author%3AFrankFMY+is%3Amerged) | 3 PRs: TypeScript-aware lint fixes, import cleanup correctness, and async-generator handling |
-| [OXC](https://github.com/oxc-project/oxc/pulls?q=is%3Apr+author%3AFrankFMY+is%3Amerged) | 2 PRs: actionable diagnostics and formatter-directive handling |
+- **Backend and integration:** [Arcana](https://github.com/FrankFMY/Arcana), [connector-contracts](https://github.com/FrankFMY/connector-contracts), [async-control](https://github.com/FrankFMY/async-control).
+- **Data correctness:** [canonical-json-fingerprint](https://github.com/FrankFMY/canonical-json-fingerprint), [schema-evolution-planner](https://github.com/FrankFMY/schema-evolution-planner), [typed-unit-system](https://github.com/FrankFMY/typed-unit-system).
+- **Financial analytics:** [order-risk-engine](https://github.com/FrankFMY/order-risk-engine), [fifo-cost-basis](https://github.com/FrankFMY/fifo-cost-basis).
+- **Operations and security:** [modbus-edge-agent](https://github.com/FrankFMY/modbus-edge-agent), [totp-recovery-kit](https://github.com/FrankFMY/totp-recovery-kit), [git-activity-analysis-core](https://github.com/FrankFMY/git-activity-analysis-core).
+- **Visual systems:** [canvas-geometry](https://github.com/FrankFMY/canvas-geometry), [deterministic-sphere-network](https://github.com/FrankFMY/deterministic-sphere-network), [svg-sprite-toolkit](https://github.com/FrankFMY/svg-sprite-toolkit).
 
-## Core stack
+</details>
 
-<p>
-  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white">
-  <img alt="Node.js" src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white">
-  <img alt="Go" src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white">
-  <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white">
-  <img alt="NestJS" src="https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white">
-  <img alt="Express" src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white">
-  <img alt="React" src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB">
-  <img alt="Next.js" src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white">
-  <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white">
-  <img alt="Redis" src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white">
-  <img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white">
-  <img alt="Linux" src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black">
-  <img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white">
-</p>
+## Tools I reach for
 
-## Work
+**TypeScript / Node.js, Go, Python, PostgreSQL, Redis.** React/Next.js and SvelteKit for the product interface; Docker, Linux and CI for delivery. AI/LLM integrations where they earn their place in the workflow.
 
-Open to Senior Backend / Platform Engineer, Product Engineer, Tech Lead, and hands-on engineering leadership opportunities. Remote contract or full-time.
+## Build something worthwhile
+
+I'm open to senior engineering, Tech Lead and hands-on leadership roles, as well as focused product engagements through Frank Systems. Remote contract, retainer or a strong full-time opportunity.
+
+Tell me what needs to work, where it gets difficult and what a good outcome looks like.
+
+[Telegram](https://t.me/FrankFMY) · [Email](mailto:frankfmy@proton.me) · [LinkedIn](https://www.linkedin.com/in/frankfmy/) · [Website](https://frankfmy.com)
+
+Also: [X](https://x.com/FrankFMY) · [npm](https://www.npmjs.com/~frankfmy) · [GitHub](https://github.com/FrankFMY) · [Gmail](mailto:Pryanishnikovartem@gmail.com)
+
+Profile content: [MIT](LICENSE).
